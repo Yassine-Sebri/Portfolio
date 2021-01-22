@@ -284,9 +284,9 @@ header {
     }
 }
 
-/* Services Section */
+/* Expertise Section */
 
-.my-services{
+.my-expertise{
     background-color: #404040;
     background-image: url(../img/services.jpg);
     background-size: cover;
@@ -295,12 +295,12 @@ header {
     text-align: center;
 }
 
-.section__title--services {
+.section__title--expertises {
     color: var(--clr-accent);
     position: relative;
 }
 
-.section__title--services::after{
+.section__title--expertises::after{
     content: '';
     display: block;
     width: 2em;
@@ -310,24 +310,24 @@ header {
     opacity: 0.25;
 }
 
-.services{
+.expertises{
     margin-bottom: 4em;
 }
 
-.service{
+.expertise{
     max-width: 500px;
     margin: 0 auto;
 }
 
 @media (min-width: 800px){
-    .services {
+    .expertises {
         display: flex;
         max-width: 1000px;
         margin-left: auto;
         margin-right: auto;
         margin-bottom: 3em;
     }
-    .service + .service {
+    .expertise + .expertise {
         margin-left: 2em;
     }
 }
